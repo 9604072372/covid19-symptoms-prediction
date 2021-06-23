@@ -1,0 +1,23 @@
+<head>
+
+<html>
+<form>
+<body align='center'>
+
+		<!-- Result -->
+		<div class="results">
+			{% if prediction==1 %}
+				<h1>Prediction: <span class='danger'>Opps! You have Covid19 Symtoms</span></h1>
+			{% elif prediction==0 %}
+				<h1>Prediction: <span class='safe'>Hurrah !!! You DON'T have Covid19 Symtoms.</span></h1>
+				
+			{% endif %}
+		</div>
+
+		
+
+	</body>
+	</form>
+	</html>
+	
+	</head>
